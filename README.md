@@ -30,3 +30,11 @@ Predicting a movie's genre from its synopsis by using NLP
 - Model from scikit-learn
 - features = embeddings from bert
 - label = genre index
+
+## Testing
+**score:** 0.60
+
+**Further improvements**
+- Need more data per genre
+- Bert fine-tuning
+- less labels if possible
