@@ -2,6 +2,11 @@
 Predicting a movie's genre from its synopsis by using NLP
 
 ## Summary
+- Used movie data from IMDB
+- Processed data to have one-to-one match between synopsis and genre
+- Embeddings from BERT
+- Training logistic regression model
+
 ## 1. Data preprocessing
 **Genres**
 - Used columns ["original_title", "overview", "genres"] from raw data
@@ -31,7 +36,7 @@ Predicting a movie's genre from its synopsis by using NLP
 - features = embeddings from bert
 - label = genre index
 
-## Testing
+## 3. Testing
 **score:** 0.60
 
 **Further improvements**
