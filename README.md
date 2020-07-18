@@ -10,6 +10,3 @@ Predicting a movie's genre from its synopsis by using NLP
 - Combined "Drama" and "Romance" into "Drama/Romance"
 - Movies in the data have multiple genres. Left every row with only 1 genre. The genre with the least count survives.
 - Gave an index number for each genre(0~5).
-
-**Synopsis**
-- 
