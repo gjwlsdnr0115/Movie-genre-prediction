@@ -8,6 +8,9 @@ Predicting a movie's genre from its synopsis by using NLP
 - Training logistic regression model
 
 ## 1. Data preprocessing
+[(notebook)](./data_preprocessing.ipynb)
+
+
 **Genres**
 - Used columns ["original_title", "overview", "genres"] from raw data
 - Excluded all genres except the top 5
@@ -23,7 +26,7 @@ Predicting a movie's genre from its synopsis by using NLP
 ## 2. Model training
 **DistilBERT + Logistic Regression**
 
-**DistilBERT**
+**DistilBERT** [(notebook)](./BERT_embeddings.ipynb)
 - Used DistilBERT due to efficiency
 - model = DistilBert
 - pretrained_weights = 'distilbert-base-uncased'
@@ -31,7 +34,7 @@ Predicting a movie's genre from its synopsis by using NLP
 - Genreated tensor embeddings of [CLS] token
 - Used embeddings to train regression model
 
-**Logistic Regression**
+**Logistic Regression** [(notebook)](./regression.ipynb)
 - Model from scikit-learn
 - features = embeddings from bert
 - label = genre index
